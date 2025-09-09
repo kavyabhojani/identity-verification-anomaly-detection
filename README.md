@@ -41,3 +41,32 @@ The work is framed in a **client-facing Proof of Value (PoV)** style, demonstrat
 ---
 
 ## Repository Structure
+- identity-verification-anomaly-detection/
+- │
+- ├── data/ # Synthetic dataset generator + samples
+- ├── notebooks/ # Exploration & model training
+- ├── src/
+- │ ├── features/ # SQL + Python feature engineering scripts
+- │ ├── models/ # Training, evaluation, SHAP explainability
+- │ └── utils/ # Helper functions
+- │
+- ├── reports/
+- │ ├── design_doc.md # Client-style design doc
+- │ ├── pov_summary.pdf # Proof of Value summary
+- │
+- ├── requirements.txt
+- └── README.md
+
+---
+
+## Business Value
+- **Reduces fraud risk** by identifying anomalies before transaction approval.  
+- **Improves customer trust** with explainable AI (transparent risk scoring).  
+- **Demonstrates PoV delivery**: quick, actionable prototype for client stakeholders.  
+
+---
+
+## Next Steps
+- Expand dataset with time-series patterns (e.g., login streaks, velocity).  
+- Deploy model as an API (FastAPI/Flask) for real-time scoring demo.  
+- Add Streamlit dashboard for interactive anomaly visualization.  
