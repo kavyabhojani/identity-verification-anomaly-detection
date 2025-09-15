@@ -4,8 +4,6 @@
 This project explores **identity verification anomaly detection** using supervised machine learning on synthetic login datasets.  
 The goal is to flag suspicious behaviors such as **device mismatch**, **geographic variance**, and **unusual login patterns** that could indicate account takeover or fraud.  
 
-The work is framed in a **client-facing Proof of Value (PoV)** style, demonstrating not just technical accuracy but also clear business communication — similar to what financial clients (e.g., Mastercard’s fraud prevention teams) expect.
-
 ---
 
 ## Key Features
